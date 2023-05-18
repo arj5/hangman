@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "overlay"> text
+        <!-- <div id="text">text</div> -->
+    </div>
+
+    <h1>STICKMAN</h1>
+
+    <input type="password" id="input" placeholder="Enter Word" oninput="this.value = this.value.toUpperCase()">
+    <button id="btn">✓</button><br><br>
+    <div class="main">
+        <div class = "left" >
+
+            <div class="MAN">MAN
+                <div class="man">
+                    <div id="rope">|</div>
+                    <div id="head">O</div>
+
+                    <div id="body">|</div>
+                    <div id="leftA">/</div>
+                    <div id="rightA">\</div>
+
+                    <div id="leftL">/</div>
+                    <div id="rightL">\</div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="WORD"> WORD
+                    
+                    <div id ="guessOutput">input word...</div>
+                    <input id = "guessLetter" type="text" maxlength="1" oninput="this.value = this.value.toUpperCase()">
+                    <button id="btnG">✓</button>
+
+                </div>
+
+                
+                
+    
+                <div class="LETTERS">LETTERS
+                    <div id="wrongL">incorrect characters placed here...</div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+
+    <button id="newGame">New Game</button>
+
+
+
+
+   <script src="game.js"></script>
+</body>
+</html>
+
+
+<!-- oninput="this.value = this.value.toUpperCase()" -->

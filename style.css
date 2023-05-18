@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    background: linear-gradient(100deg, rgb(152, 213, 120)0%, rgb(148, 230, 217)100%);
+    overflow: hidden;
+    align-items: center;
+}
+
+#overlay{
+    position:fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    color: azure;
+    font-size: 50px;
+    font-family: futura;
+
+    margin-top: 7%;
+    cursor: pointer;
+    transition: opacity 500ms;
+
+
+}
+button#newGame{
+    font-size: 20px;
+}
+
+
+h1{
+    color: azure;
+    font-family: futura;
+    font-size: 80px;
+
+}
+input{
+    height: 50hv;
+    font-family: futura;
+    
+}
+
+.MAN{
+    /* border: 3px solid; */
+    /* height: 2000hv; */
+    display: table-cell;
+    /* justify-content: center; */
+    color: azure;
+    font-size: 50px;
+    font-family: futura;
+    width: 600px;
+    border: 3px solid; 
+
+
+}
+.WORD{
+    border: 3px solid; 
+    /* height: 2000hv; */
+    display: table-cell;
+    /* justify-content: center; */
+    color: azure;
+    font-size: 50px;
+    font-family: futura;
+    width: 950px;
+    height: 300px;
+    align-items: center;
+    border-bottom: none;
+    border-left: none;
+
+    
+
+}
+
+.LETTERS{
+    /* border: 3px solid; */
+    /* height: 2000hv; */
+    display: table-cell;
+    /* justify-content: center; */
+    color: azure;
+    font-size: 50px;
+    font-family: futura;
+    width: 950px;
+    height: 300px;
+    border: 3px solid; 
+    border-left: none;
+
+    
+
+}
+input[type=text]{
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border: none;
+    border-bottom: 2px solid azure;
+    width: 35px;
+    margin-top: 8%;   
+    text-transform: uppercase;
+  
+
+}
+
+input[type=password]{
+    
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.2);
+    border: none;
+    border-bottom: 2px solid azure;
+    text-transform: uppercase;
+  
+}
+
+.main{
+    height: 50vh;
+    display: table;
+    justify-content: center;
+    align-items: center;
+    
+    /* flex-direction: column; */
+    
+}
+
+.left{
+    display: table-row; 
+    align-items: center;
+}
+
+.right{
+    align-items: center;
+    display: grid;
+
+}
+
+button{
+    font-family: futura;
+    color: azure;
+    border-color: azure;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    
+}
+
+#guessOutput{
+    color: azure;
+    font-size: 60px;
+    margin-top: 2%;
+ 
+   
+}
+#name{
+    font-family: futura;
+    color: azure;
+
+}
+
+.man{
+    font-size: 100px;
+    
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+       
+}
+#rope{
+    margin-top: -5%;
+    animation: none;
+    
+}
+#head{
+    font-size: 115px;
+    margin-top: -8%;
+    animation: none;
+
+    
+}
+
+
+
+#body{
+    margin-top: -15%;
+    font-size: 200px;
+    animation: none;
+  
+
+}
+
+
+#leftA{
+    width: 85%;
+    margin-top: -42.7%;
+    font-size: 125px;
+    animation: none;
+ 
+
+}
+
+#rightA{
+    width: 115%;
+    margin-top: -29.9%;
+    font-size: 125px;
+    animation: none;
+ 
+
+}
+
+#leftL{
+    width: 87%;
+    margin-top: -1%;
+    font-size: 150px;
+    animation: none;
+ 
+
+}
+
+#rightL{
+    width: 113%;
+    margin-top: -36%;
+    font-size: 150px;
+    animation: none;
+
+
+}
